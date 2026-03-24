@@ -36,12 +36,12 @@ return [
                 'permission' => 'users.view',
             ],
 
-            // [
-            //     'label' => 'User Devices',
-            //     'icon' => 'device-phone-mobile',
-            //     'route' => 'users.devices.index',
-            //     'permission' => 'user_devices.view',
-            // ],
+            [
+                'label' => 'User Devices',
+                'icon' => 'device-phone-mobile',
+                'route' => 'users.devices.index',
+                'permission' => 'user_devices.view',
+            ],
 
         ],
     ],

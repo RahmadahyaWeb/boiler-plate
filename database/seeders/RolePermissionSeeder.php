@@ -35,6 +35,11 @@ class RolePermissionSeeder extends Seeder
                 'permissions.create',
                 'permissions.update',
                 'permissions.delete',
+
+                'user_devices.view',
+                'user_devices.create',
+                'user_devices.update',
+                'user_devices.delete',
             ];
 
             foreach ($permissions as $permission) {
@@ -73,6 +78,11 @@ class RolePermissionSeeder extends Seeder
                 'roles.update',
 
                 'permissions.view',
+
+                'user_devices.view',
+                'user_devices.create',
+                'user_devices.update',
+                'user_devices.delete',
             ]);
 
             $userRole->syncPermissions([

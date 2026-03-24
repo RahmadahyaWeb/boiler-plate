@@ -28,7 +28,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::prefix('users')->name('users.')->group(function () {
 
         Route::livewire('/', 'pages::users.index')->name('index');
-        // Route::livewire('devices', 'pages::user-devices.index')->name('devices.index');
+        Route::livewire('devices', 'pages::user-devices')->name('devices.index');
 
     });
 });
